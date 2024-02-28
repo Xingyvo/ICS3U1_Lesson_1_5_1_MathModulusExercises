@@ -11,9 +11,14 @@ class Rads extends ConsoleProgram {
     double dblDegrees;
     double dblRadians;
 
-    // calculations and printing
+    // Get the degree value from the user
     dblDegrees = readDouble("Input degree: ");
+    
+    // Converting degrees to radians
     dblRadians = Math.toRadians(dblDegrees);
+
+    // Add an inline comment for the ouput
+    // Output the result
     System.out.println("The radian measures to: " + dblRadians);
   }
 }

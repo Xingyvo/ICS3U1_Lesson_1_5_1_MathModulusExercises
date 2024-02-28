@@ -13,14 +13,14 @@ class Power extends ConsoleProgram {
     double dblBase;
     double dblResult;
 
-    //input
+    // input
     dblPower = readDouble("What is power?: ");
     dblBase = readDouble("what is base?; ");
 
     // Calculate
     dblResult = Math.pow(dblBase, dblPower);
 
-    //output
+    // output
     System.out.println(dblBase + " to the power of " + dblPower + " is " + dblResult);
   }
 }

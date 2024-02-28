@@ -7,6 +7,7 @@ class AreaSin extends ConsoleProgram {
   
   public void run() {
     
+    // Add a comment here (Define the variables)
     double dblSideA;
     double dblSideB;
     double dblAngleC;
